@@ -2,4 +2,4 @@
 My Attempt at solving the MW decryptions
 
 ![Screenshot](screenshot.PNG)
-![Screenshot](screenshot1.png)
+![Screenshot](screenshot1.PNG)
