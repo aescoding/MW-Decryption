@@ -1,0 +1,81 @@
+﻿  dbg.cpp
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(44,10): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 3 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(80,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 3 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(206,82): warning C4311: 'type cast': pointer truncation from 'const PVOID' to 'DWORD'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(206,82): warning C4302: 'type cast': truncation from 'const PVOID' to 'DWORD'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(506,61): warning C4244: 'argument': conversion from 'ZydisI16' to 'ZydisU8', possible loss of data
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(574,57): warning C4244: 'argument': conversion from 'ZydisI16' to 'ZydisU8', possible loss of data
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(639,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(640,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(641,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(642,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(643,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(644,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(645,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\dbg.cpp(646,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+  Helpers.cpp
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(161,12): warning C4244: 'initializing': conversion from '_Ty' to 'DWORD', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(270,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 3 has type 'ZydisU64'
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(270,12): message : consider using '%llx' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(270,12): message : consider using '%Ix' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(270,12): message : consider using '%I64x' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(274,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 3 has type 'ZydisU64'
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(274,12): message : consider using '%llx' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(274,12): message : consider using '%Ix' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(274,12): message : consider using '%I64x' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(279,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ZydisI64'
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(279,13): message : consider using '%llx' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(279,13): message : consider using '%Ix' in the format string
+C:\Users\cora\Desktop\MW Decryptor\Helpers.cpp(279,13): message : consider using '%I64x' in the format string
+  Offsets.cpp
+  RegisterTracer.cpp
+C:\Users\cora\Desktop\MW Decryptor\RegisterTracer.cpp(32,51): warning C4244: 'argument': conversion from 'ZydisI16' to 'ZydisU8', possible loss of data
+  RegisterTracker.cpp
+  UI.cpp
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(460,22): warning C4477: 'sprintf_s' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(469,49): warning C4244: 'argument': conversion from 'DWORD' to 'ZydisRegister', possible loss of data
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(471,55): warning C4244: 'argument': conversion from 'DWORD' to 'ZydisRegister', possible loss of data
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(493,9): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(493,9): message : consider using '%llX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(493,9): message : consider using '%IX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(493,9): message : consider using '%I64X' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(499,9): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(499,9): message : consider using '%llX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(499,9): message : consider using '%IX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(499,9): message : consider using '%I64X' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(501,68): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(501,68): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(502,55): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(502,55): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(508,9): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(508,9): message : consider using '%llX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(508,9): message : consider using '%IX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(508,9): message : consider using '%I64X' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(512,9): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(512,9): message : consider using '%llX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(512,9): message : consider using '%IX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(512,9): message : consider using '%I64X' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(516,9): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'ZydisI64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(516,9): message : consider using '%llX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(516,9): message : consider using '%IX' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(516,9): message : consider using '%I64X' in the format string
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(859,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 3 has type 'unsigned __int64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(874,22): warning C4477: 'sprintf_s' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'DWORD64'
+C:\Users\cora\Desktop\MW Decryptor\UI.cpp(946,7): warning C4101: 'msg': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 513 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+Zydis.lib(Mnemonic.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(Mnemonic.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(Register.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(Register.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(SharedData.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(SharedData.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(String.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(String.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(Utils.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(Utils.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(Decoder.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(Decoder.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(DecoderData.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(DecoderData.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+Zydis.lib(Formatter.obj) : warning LNK4099: PDB 'Zydis.pdb' was not found with 'Zydis.lib(Formatter.obj)' or at 'C:\Users\cora\Desktop\MW Decryptor\x64\Release\Zydis.pdb'; linking object as if no debug info
+  MW Decryptor.vcxproj -> C:\Users\cora\Desktop\MW Decryptor\x64\Release\MW Decryptor.exe
